@@ -119,7 +119,7 @@ color: white;
     min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("/image.png") no-repeat;
+  background: url(image.png) no-repeat;
   background-size:cover;
   background-position:center;
   padding-left: 100px;
@@ -341,8 +341,8 @@ color: white;
   color: white;
 }
 .footer {
-  background-color: #24292f; /* Dark background */
-  color: #ffffff; /* White text */
+  background-color: #24292f; 
+  color: #ffffff;
   padding: 20px;
   text-align: center;
   font-size: 14px;
@@ -370,7 +370,7 @@ color: white;
 }
 
 .footer-nav a:hover {
-  color: #f0a500; /* Highlight color on hover */
+  color: #f0a500; 
 }
 
 .social-icons a {
@@ -406,26 +406,26 @@ color: white;
     min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url("D:/Shiva Files/html/front1.png") no-repeat;
+  background: url(front1.png) no-repeat;
   
   background-size:cover;
   background-position:center;
   padding-left: 100px;
   }
   .image .content {
-    text-align: left; /* Align text to the left */
-    margin-left: 0px; /* Add some margin for spacing */
+    text-align: left;
+    margin-left: 0px;
   }
   
   
   .image .content h1 {
     text-align: left;
-    font-size: 2rem; /* Smaller heading size */
+    font-size: 2rem; 
   }
 
   .image .content p {
     text-align: left;
-    font-size: 0.9rem; /* Smaller paragraph size */
+    font-size: 0.9rem;
   }
   .abo{
     max-width: fit-content;
@@ -476,11 +476,11 @@ color: white;
   .menu-icon {
     display: block;
     color: white;
-    position: absolute; /* Enables positioning relative to the nearest positioned ancestor */
-    top: 28px; /* Distance from the top */
-    right: 15px; /* Distance from the right */
-    font-size: 24px; /* Adjust as needed */
-    cursor: pointer; /* Adds a pointer cursor for better UX */
+    position: absolute; 
+    top: 28px; 
+    right: 15px; 
+    font-size: 24px; 
+    cursor: pointer; 
 }
 
 
