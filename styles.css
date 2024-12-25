@@ -1,0 +1,504 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+html{
+  scroll-behavior: smooth;
+}
+.skill{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  
+}
+.skill h1{
+  font-size: 35px;
+  color:white;
+  text-align: center;
+}
+.skill p{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+.skill button{
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card {
+  background: linear-gradient(135deg, #3a3a58, #292940);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ff79c6; /* Icon color */
+}
+
+.card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #f8f8f2;
+}
+
+.card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #d8d8e8;
+}
+ .topnav{
+    display: flex;
+    align-items: center;
+    }
+
+ .topnav img {
+    border-radius: 250px;
+    border: 1px solid white;
+    height: 100px;
+    width: 100px;
+    float: left; 
+    margin-right: 10px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .topnav h4{
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+  }
+  .topnav img:hover{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(0, 29, 250);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+.topnav a{
+
+padding: 10px;
+font-size: 28px;
+text-decoration: none;
+margin: 0 40px 0 70px;
+color: white;
+}
+
+.topnav-right{
+    margin-left: auto;
+
+}
+
+.topnav a:hover{
+    color: #1EC5E3;
+    border-bottom: 2px  solid #0606b3;
+    transition: 0.2s ;
+   
+}
+
+.image{
+    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("D:/Shiva Files/html/image.png") no-repeat;
+  background-size:cover;
+  background-position:center;
+  padding-left: 100px;
+}
+
+.image .content{
+    max-width: 50rem;
+}
+
+.image .content h1 {
+    padding-top: -20px;
+    font-size: 5rem;
+    color:white;
+    line-height: 0.2;
+  }
+  
+  .image .content p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color:white;
+    padding: 1rem 0;
+  }
+  
+  .project{
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+    height: 500PX;
+   align-items: center;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+
+.project .box1{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  
+  background: linear-gradient(45deg, #11121497, #eee3e2e1);
+  transition: 0.5s ease-in-out;
+}
+.project .box2{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #11121497, #eee3e2e1);
+  transition: 0.5s ease-in-out;
+}
+.project .box3{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  
+  background: linear-gradient(45deg, #11121497, #eee3e2e1);
+  transition: 0.5s ease-in-out;
+}
+.project .box4{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  border-radius: 25px;
+  background: linear-gradient(45deg, #11121497, #eee3e2e1);
+  
+  transition: 0.5s ease-in-out;
+}
+
+.project .box.content{
+  max-width: 60rem;
+}
+
+.project .mid{
+  
+ 
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+
+  
+}
+.project .cen{
+  
+  padding: 10px;
+}
+.project .box.content p{
+  align-items: center;
+  padding: 10px;
+}
+.h2{
+  font-size: 24px;
+  font-family: sans-serif;
+   text-align: center;
+  
+  color: white;
+}
+
+.project .box1:hover{
+
+ transform: scale(1.1);
+  box-shadow: 0 0 10px rgb(216, 217, 225);
+  transition: width 0.5s ease ;
+  
+}
+.project .box2:hover{
+
+  transform: scale(1.1);
+   box-shadow: 0 0 10px rgb(216, 217, 225);
+   transition: width 0.5s ease ;
+   
+ }
+ .project .box3:hover{
+
+  transform: scale(1.1);
+   box-shadow: 0 0 10px rgb(216, 217, 225);
+   transition: width 0.5s ease ;
+   
+ }
+ .project .box4:hover{
+
+  transform: scale(1.1);
+   box-shadow: 0 0 10px rgb(216, 217, 225);
+   transition: width 0.5s ease ;
+   background: url(line.jpg);
+   
+   background-size: 472px 467px ;
+ }
+ 
+.abo{
+  display: flex;
+  width: 1400px;
+  height: 500px;
+  flex-direction: row;
+}
+
+.abo p{
+  padding-left: 20px;
+  text-align: justify;
+  display: flexbox;
+  color: white;
+  padding-right: 50px;
+  
+  font-size: 35px;
+}
+.abim{
+  width: 400px;
+  display: flex;
+  float: right;
+  border-radius: 72px;
+}
+.slide{
+  width: 20px;
+  height: 400px;
+}
+.contact {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact input, .contact textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+  height: 40px;
+}
+
+.contact textarea {
+  height: 150px;
+}
+
+.contact button {
+  padding: 10px 20px;
+  background-color: rgb(96, 94, 94);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+  background-color: rgb(188, 188, 229);
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: white;
+}
+.footer {
+  background-color: #24292f; /* Dark background */
+  color: #ffffff; /* White text */
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.footer-nav {
+  margin: 10px 0;
+}
+
+.footer-nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.footer-nav a:hover {
+  color: #f0a500; /* Highlight color on hover */
+}
+
+.social-icons a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.social-icons a:hover {
+  color: #f0a500;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .contact-container {
+    padding: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+    overflow-x: hidden;
+  }
+  .content{
+    max-width: fit-content;
+    justify-content: left;
+    align-items: left;
+   
+  }
+  .image{
+    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: url("D:/Shiva Files/html/front1.png") no-repeat;
+  
+  background-size:cover;
+  background-position:center;
+  padding-left: 100px;
+  }
+  .image .content {
+    text-align: left; /* Align text to the left */
+    margin-left: 0px; /* Add some margin for spacing */
+  }
+  
+  
+  .image .content h1 {
+    text-align: left;
+    font-size: 2rem; /* Smaller heading size */
+  }
+
+  .image .content p {
+    text-align: left;
+    font-size: 0.9rem; /* Smaller paragraph size */
+  }
+  .abo{
+    max-width: fit-content;
+    display: flexbox;
+    flex-direction: row-reverse;
+    height: 300px;
+    
+  }
+  .abo p{
+    max-width: 300px;
+    padding-right: 10px;
+    margin: 0;
+    font-size:0.9rem;
+  }
+  .abo .abim{
+    width: 290px;
+    height: 200px;
+  }
+   .skill h1{
+    font-size: 25px;
+    
+    font-family: sans-serif;
+   }
+
+   .skill p{
+    font-size: 0.9rem;
+   }
+
+   .container {
+     display: flex;
+     flex-direction: column;
+   }
+   .project button{
+    display: none;
+   }
+   .project {
+    padding: 2px;
+    overflow-x:auto
+   }
+   .project .box4 {
+    display: block;
+   }
+   
+}
+
+
+@media screen and (max-width: 600px) {
+  .menu-icon {
+    display: block;
+    color: white;
+    position: absolute; /* Enables positioning relative to the nearest positioned ancestor */
+    top: 28px; /* Distance from the top */
+    right: 15px; /* Distance from the right */
+    font-size: 24px; /* Adjust as needed */
+    cursor: pointer; /* Adds a pointer cursor for better UX */
+}
+
+
+  .topnav-right {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .topnav-right.show {
+    display: flex;
+  }
+
+}
+
+  
